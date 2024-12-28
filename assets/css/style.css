@@ -1,0 +1,94 @@
+.dg-type-speed-test {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #6a11cb, #2575fc);
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    margin-bottom: 20px;
+    animation: fadeIn 1s ease-in;
+}
+
+.test-container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    animation: slideIn 1s ease-in-out;
+}
+
+#results {
+    color: #000;
+}
+
+.quote {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.gif-feedback {
+    margin-top: 20px;
+    display: none;
+}
+
+.gif-feedback img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.reset-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: #ff5722;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.reset-btn:hover {
+    background: #e64a19;
+}
+
+textarea {
+    resize: none;
+    overflow: hidden;
+    height: 100px;
+}
+
+#howToUse .list-group-item {
+    border: 1px solid #ccc;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+#howToUse .list-group-item:hover {
+    background-color: #f8f9fa;
+    border-color: #000;
+}
+
+@media (max-width: 768px) {
+    #dg-type-speed-test {
+        padding: 10px !important;
+    }
+}
